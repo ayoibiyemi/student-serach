@@ -50,11 +50,11 @@ btn.addEventListener("click", ()=>{
       // console.log ("student exist");
       // return document.getElementById("resultDisplay").innerHTML = `<h2> ${students.name}</h2>
       // `;
-      return document.getElementById("resultDisplay").innerHTML  = `<div>${students.name}</div>
-      <div>${students.course}
-      <div>${students.results}
-      <div>${students.gpa}
-      <div>${students.grade}`;
+      return document.getElementById("resultDisplay").innerHTML  = `<div>${students[index].name}</div>
+      <div>${students[index].course}
+      <div>${students[index].results}
+      <div>${students[index].gpa}
+      <div>${students[index].grade}`;
       
       
     }else{
