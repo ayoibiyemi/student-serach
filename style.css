@@ -1,0 +1,35 @@
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  max-width: 700px;
+  margin: auto;
+  
+}
+
+h1{
+  text-align: center;
+}
+.formtop{
+  background-color: rgb(231, 228, 228);
+  padding: 20px;
+  
+}
+form{
+width: 100%;
+display: flex;
+}
+
+input[type="button" i]{
+  background-color: rgb(16, 179, 243);
+  color: white;
+  width: 20%;
+  
+  padding: 10px;
+}
+input[type="search" i] {
+  width: 80%;
+  
+}
+
+#resultDisplay{
+  margin-top: 40px;
+}
